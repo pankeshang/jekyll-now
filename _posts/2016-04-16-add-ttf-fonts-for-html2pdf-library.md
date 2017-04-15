@@ -2,7 +2,7 @@
 layout: post
 title:  "Add TTF fonts for html2pdf library"
 date:   2017-04-16 00:55:32 +0800
-categories: coding
+category: programming
 tags: 
   - PHP
   - pdf
@@ -10,14 +10,8 @@ tags:
 ---
 
 
-# Add TTF fonts for HTML2PDF library
-
-------
-
-
-
 ### Task
-I am working for my client's project, which I need to add a font for the `html2pdf` library to use.
+I am working on my client's project, which I need to add a font for the `html2pdf` library to use.
 
 ### Background
 my `html2pdf` version is 4.4.0 and `TCPDF`'s version is 5.0.002 (`TCPDF` is the depencency of `html2pdf`. This version of `TCPDF` is super old cuz it is legacy code from a Indian team).
