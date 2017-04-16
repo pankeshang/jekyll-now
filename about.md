@@ -4,12 +4,22 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Code, thoughts, food
 
-### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
-
+{% comment %}
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+```
+                      _                _                                                             _  _                            
+                     | |              | |                            ____                           (_)| |                           
+ _ __    __ _  _ __  | | __  ___  ___ | |__    __ _  _ __    __ _   / __ \   __ _  _ __ ___    __ _  _ | |     ___   ___   _ __ ___  
+| '_ \  / _` || '_ \ | |/ / / _ \/ __|| '_ \  / _` || '_ \  / _` | / / _` | / _` || '_ ` _ \  / _` || || |    / __| / _ \ | '_ ` _ \ 
+| |_) || (_| || | | ||   < |  __/\__ \| | | || (_| || | | || (_| || | (_| || (_| || | | | | || (_| || || | _ | (__ | (_) || | | | | |
+| .__/  \__,_||_| |_||_|\_\ \___||___/|_| |_| \__,_||_| |_| \__, | \ \__,_| \__, ||_| |_| |_| \__,_||_||_|(_) \___| \___/ |_| |_| |_|
+| |                                                          __/ |  \____/   __/ |                                                   
+|_|                                                         |___/           |___/                                                    
+
+```
+
+{% endcomment %}
