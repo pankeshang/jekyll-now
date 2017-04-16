@@ -7,8 +7,8 @@ permalink: /about/
 Code, thoughts, food
 
 
-{% comment %}
 ### Contact me
+
 
 ```
                       _                _                                                             _  _                            
@@ -21,5 +21,3 @@ Code, thoughts, food
 |_|                                                         |___/           |___/                                                    
 
 ```
-
-{% endcomment %}
