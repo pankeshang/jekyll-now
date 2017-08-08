@@ -9,7 +9,7 @@ tags:
   - postgresql
 ---
 
-
+### Task
 I have a djagno project which has been developed on sqlite database on my local machine (it's easy and fast!)
 
 We need to move it to production environment, which is running on PostgreSql.
