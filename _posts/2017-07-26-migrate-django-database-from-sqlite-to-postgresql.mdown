@@ -15,10 +15,9 @@ I have a djagno project which has been developed on sqlite database on my local 
 We need to move it to production environment, which is running on PostgreSql.
 
 
-
 #### step 1. dump the data from sqlite db
 
- used `python manage.py dumpdata --indent=2 > ~/dump.json` to dump the data out
+used `python manage.py dumpdata --indent=2 > ~/dump.json` to dump the data out
 
 
 
