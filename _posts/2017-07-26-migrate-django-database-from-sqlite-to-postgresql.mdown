@@ -9,19 +9,19 @@ tags:
   - postgresql
 ---
 
-### Task
+Task
 
 I have a djagno project which has been developed on sqlite database on my local machine (it's easy and fast!)
 
 We need to move it to production environment, which is running on PostgreSql.
 
 
-#### step 1. dump the data from sqlite db
+Step 1. dump the data from sqlite db
 
 used `python manage.py dumpdata --indent=2 > ~/dump.json` to dump the data out
 
 
-#### step 2. Get content type data in SQL format
+Step 2. Get content type data in SQL format
 
 we use python to generate the SQL components
 ```
@@ -67,7 +67,7 @@ print(',\n'.join(permission_data))
 ```
 
 
-#### step3. create the PostgreSQL db using django admin
+Step3. create the PostgreSQL db using django admin
 
 ```
 python manage migrate
@@ -105,7 +105,8 @@ INSERT INTO auth_permission (id, name, content_type_id, codename) VALUES
 ```
 
 
-#### step4. need to update the sequences for content type and permission
+Step4. need to update the sequences for content type and permission
+
 ```
 
 truuue_commercial_db=# alter sequence django_content_type_id_seq restart with 64;
@@ -122,7 +123,7 @@ ALTER SEQUENCE
 
 ```
 
-### step5. load the rest of the data into db using django manager
+Step5. load the rest of the data into db using django manager
 
 ```
 python manage.py loaddata < dump.json
