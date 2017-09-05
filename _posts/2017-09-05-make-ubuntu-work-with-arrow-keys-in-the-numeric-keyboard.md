@@ -8,6 +8,9 @@ tags:
   - keyboard
 ---
 
+# Make Ubuntu work with Arror keys in the numeric keyboard
+
+
 I have got an ASUS UX510U for work for some time. It is good and cheap and steady. But I do have some problem with it's keyboard layout. 
 
 ![Keyboard layout]({{ site.url }}/images/asus-ux510-img-keyboard-backlight.png)
